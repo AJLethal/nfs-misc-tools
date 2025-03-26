@@ -1,3 +1,6 @@
+NFSHS FEDATA Hidden Flag Editor
+=====================================
+
 How to use:
 =====================================
 -Make sure to have Python 3 installed (tested with Python 3.8 and 3.10 versions)
