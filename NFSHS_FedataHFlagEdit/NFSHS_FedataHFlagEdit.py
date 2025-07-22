@@ -84,10 +84,10 @@ filePathStr = tk.StringVar()
 dirtyFlag = 0
 
 spFlagValues = [
-                ['Color select: ON / Interior & driver in SW renderer: OFF',
-                'Color select: ON / Interior & driver in SW renderer: ON',
-                'Color select: OFF / Interior & driver in SW renderer: OFF',
-                'Color select: OFF / Interior & driver in SW renderer: ON'],
+                ['Color select: ON / Open top roof: NO',
+                'Color select: ON / Open top roof: YES',
+                'Color select: OFF / Open top roof: NO',
+                'Color select: OFF / Open top roof: YES'],
                 [1,2,193,194]
                ]
 engPosValues = [
@@ -110,7 +110,7 @@ def dirtyFlagSet(*args):
 ## "About" dialog
 def aboutDlg():
     aboutMsg = messagebox.showinfo("About NFSHS FEDATA Hidden Flag Editor",
-                                   "NFSHS FEDATA Hidden Flag Editor v1.1 \n"
+                                   "NFSHS FEDATA Hidden Flag Editor v1.2 Rev. A \n"
                                     "(c) 2025 and later AJ_Lethal\n\n"
                                     "Licensed under the MIT License")
 
